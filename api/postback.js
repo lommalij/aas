@@ -3,8 +3,8 @@ export default async function handler(req, res) {
     const { offer_id, click_id, payout, country, status, ip } = req.query;
 
     // ✅ بدّل هادو بالقيم ديالك
-    const BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
-    const CHAT_ID = "YOUR_CHAT_ID";
+    const BOT_TOKEN = "8336394759:AAGNthyfT0kKc5OJVtzM2t-Bzx8IV3LA2qo";
+    const CHAT_ID = "-1002969579542";
 
     // ✅ رسالة منسقة بالـ HTML
     const message = `
