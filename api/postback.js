@@ -17,6 +17,7 @@ export default async function handler(req, res) {
 
 🌍 Country: <b>${country || "N/A"}</b>
 📊 Status: <b>${status || "N/A"}</b>
+
 🔎 IP Address: <b>${ip || "N/A"}</b>
 
 --------------------------
