@@ -1,0 +1,11 @@
+{
+    "name": "postback-project",
+    "version": "1.0.0",
+    "description": "Adbluemedia postback to Telegram via Vercel",
+    "main": "index.js",
+    "scripts": {
+      "start": "vercel dev"
+    },
+    "dependencies": {}
+  }
+  
