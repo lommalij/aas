@@ -20,7 +20,7 @@ export default async function handler(req, res) {
 🔎 IP Address: <b>${ip || "N/A"}</b>
 
 --------------------------
-⚡ Powered by akwa
+⚡ Powered by Akwa
 `;
 
     // ✅ إرسال الرسالة لتليجرام
