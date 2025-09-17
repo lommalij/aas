@@ -14,12 +14,13 @@ export default async function handler(req, res) {
 🆔 Click ID: <b>${click_id || "N/A"}</b>
 
 💰 🔴 <b>PAYOUT: ${payout || "0.00"}</b>
+
 🌍 Country: <b>${country || "N/A"}</b>
 📊 Status: <b>${status || "N/A"}</b>
 🔎 IP Address: <b>${ip || "N/A"}</b>
 
 --------------------------
-⚡ Powered by Adbluemedia
+⚡ Powered by akwa
 `;
 
     // ✅ إرسال الرسالة لتليجرام
