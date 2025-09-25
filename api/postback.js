@@ -11,11 +11,13 @@ export default async function handler(req, res) {
 🔥 <b>New Conversion Alert</b> 🔥
 
 📌 Offer ID: <b>${offer_id || "N/A"}</b>
+
 🆔 Click ID: <b>${click_id || "N/A"}</b>
 
 💰 🔴 <b>PAYOUT: ${payout || "0.00"}</b>
 
 🌍 Country: <b>${country || "N/A"}</b>
+
 📊 Status: <b>${status || "N/A"}</b>
 
 🔎 IP Address: <b>${ip || "N/A"}</b>
