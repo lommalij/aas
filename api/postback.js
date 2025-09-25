@@ -2,7 +2,7 @@ export default async function handler(req, res) {
   try {
     const { offer_id, click_id, payout, country, status, ip } = req.query;
 
-    // ✅ بدّل هادو بالقيم ديالك
+
     const BOT_TOKEN = "8205003880:AAHSOeGarrCXe4azkPvBdSH9wY4wKZaBPNk";
     const CHAT_ID = "-1002730571635";
 
